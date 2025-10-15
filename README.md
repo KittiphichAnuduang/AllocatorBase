@@ -91,6 +91,7 @@ Build successful!
 ```
 
 ## Project Structure
+```CSS
 AllocatorBase/
 ├── AllocatorBase.c
 ├── AllocatorBase.h
@@ -103,6 +104,7 @@ AllocatorBase/
 ├── Makefile
 ├── README.md
 └── CHANGELOG.txt
+```
 
 ## Version Info  
 **Version:** v1.0  
