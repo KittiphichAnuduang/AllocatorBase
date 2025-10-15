@@ -1,0 +1,38 @@
+===============================
+ AllocatorBase - Changelog
+===============================
+
+Version: v1.0
+Date: October 2025
+Status: Release
+
+-------------------------------
+[ADDED]  
+-------------------------------
+- Implemented heap allocator (`malloc`, `calloc`, `realloc`, `free`)  
+- Added coalescing (merge adjacent free blocks)  
+- Heap map visualizer and color output  
+- DebugTool module with toggleable verbose/auto print  
+- Virtual Machine test suite (Basic, Realloc, Fragmentation, Stress)  
+- Interactive console with 9 options  
+- Clean Makefile with color-coded build messages  
+- Full documentation (`README.md`, `CHANGELOG.txt`)  
+
+-------------------------------
+[KNOWN LIMITATIONS]
+-------------------------------
+- No thread safety
+- No persistent heap snapshots
+
+-------------------------------
+[NEXT VERSION TARGETS]
+-------------------------------
+v1.1 — Integrate live heap viewer and VM interaction  
+v2.0 — Persistent heap file and memory replay
+
+-------------------------------
+[AUTHOR]
+-------------------------------
+Developed by: Kittiphich Anuduang 
+License: MIT  
+Repository: github.com/KittiphichAnuduang/AllocatorBase
